@@ -1,3 +1,93 @@
-.ul {
-  list-style: none;
+.header__container {
+  align-items: center;
+}
+.header__container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  margin-left: 300px;
+}
+.header__container ul {
+  list-style-type: none;
+}
+.header__container li {
+  color: black;
+}
+.header__container h2 {
+  color: var(--Dark, #222831);
+  /* Button */
+  font-family: Circular Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 16.8px */
+}
+.header__container button {
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--Primary, #5D50C6);
+  transition: all 0.5s;
+}
+.header__container button:hover {
+  background: white;
+}
+
+.images__container {
+  display: flex;
+  position: right;
+  margin-top: 20px;
+}
+.images__container h1 {
+  color: #000;
+  /* H1 */
+  font-family: Circular Std;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 82.8px */
+  margin-right: 100px;
+  transition: all 0.5s;
+}
+.images__container h1:hover {
+  background: rgb(0, 31, 255);
+  background: linear-gradient(90deg, rgba(0, 31, 255, 0.5578606443) 7%, rgb(5, 10, 43) 21%, rgba(5, 36, 0, 0.6951155462) 23%, rgb(2, 167, 2) 31%, rgba(65, 255, 0, 0.7455357143) 36%, rgb(207, 253, 12) 44%, rgba(11, 249, 238, 0.6755077031) 55%, rgb(13, 24, 144) 71%, rgba(0, 82, 255, 0.8071603641) 93%);
+}
+.images__container p {
+  color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.5));
+  /* Body */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+.images__container p {
+  color: var(--Dark, #222831);
+  font-family: Circular Std;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 16.8px */
+}
+
+.second__container button {
+  display: flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--Primary, #5D50C6);
+  transition: all 0.5s;
+}
+
+.logo__container {
+  margin-left: 100px;
+}
+
+.services__container {
+  margin-left: 200px;
 }/*# sourceMappingURL=main.css.map */

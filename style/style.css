@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menyu__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+}
+.ul li{
+    text-decoration: none;
+    display: flex;
+}
+.ul{
+    display: flex;
+}
